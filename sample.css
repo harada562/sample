@@ -1,0 +1,500 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	margin-top: 70px;
+}
+
+.title{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.title h1{
+	line-height: 120%;
+	font-weight: 700;
+}
+
+.setumei{
+	margin: 20px 0;
+}
+.title p{
+	line-height: 159%;
+}
+
+
+
+.airbnbimg_item > img{
+	height: 424px;
+	width:  320px;
+	border-radius: 30px;
+}
+
+.airbnbimg_item {
+      /* 横スクロール用 */
+	padding-right: 40px;
+    display: inline-block;
+}
+
+.imageshashin_ul{
+	display: flex;
+
+	list-style: none;
+	overflow-x: auto;
+	/*white-space: nowrap;*/
+	-webkit-overflow-scrolling: touch;
+}
+
+.imageshashin_ul::-webkit-scrollbar {
+    display:none;
+}
+
+
+.imageshasinn_item {
+      /* 横スクロール用 */
+	padding-right: 40px;
+    display: inline-block;
+}
+
+/*二段目*/
+.imageshasinn_item > img{
+	height: 200px;
+	width: 300px;
+	border-radius: 30px;
+}
+
+.midole{
+
+}
+.midole_ul{
+	list-style: none;
+
+}
+.midole_item{
+	display: inline-block;
+}
+
+.midole_item{
+	padding-top: 40px;
+	padding-right: 30px;
+}
+.midole_item > img{
+	height: 123px;
+	width: 184px;
+	border-radius: 10px;
+}
+
+/*3段目*/
+
+.warnig_title{
+	margin-top: 40px;
+}
+
+.warnig_title h2{
+	font-weight: 700;
+}
+
+.warning{
+	display: flex;
+	margin-top: 30px;
+}
+
+.warning_block{
+	padding-right: 40px;
+}
+
+.warning_block > img{
+	height: 100px;
+	width: 100px;
+}
+
+.warning_block h3{
+	padding-top: 20px;
+	font-weight: 700;
+}
+
+.warning_block p{
+	padding-top: 10px;
+}
+
+
+/*色がベージュのところ*/
+.input{
+	margin-top: 60px;
+	background-color: #ffffe0;
+	height: 570px;
+	 box-shadow: 3px 3px 6px -2px #555,
+  3px 3px 8px rgba(255,255,255,0.8) inset;
+}
+
+.input_list{
+	height: 470px;
+	width: 100%;
+	background-color: white;
+	border-radius: 30px;
+	margin-top: 40px;
+	box-shadow: 0px 0px 4px gray;
+}
+
+.input_tile{
+	display: inline-block;
+	margin-top: 120px;
+	padding-left: 40px;
+	text-align: left;
+}
+
+.input_tile > p{
+	font-weight: 700;
+}
+
+.input_tile_setumei{
+	font-size: 25px;
+}
+
+.input_tile_setumei > span{
+	color: red;
+}
+
+.input_tile a{
+	color: black;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.input_list{
+	padding: 35px;
+}
+
+.input_list p{
+	font-size: 20px;
+}
+
+.bourder_top{
+	border-radius: 20px 20px 0 0 ;
+}
+
+.bourder_bottom{
+	border-radius: 0 0 20px 20px ;
+}
+
+.input_list_item1{
+	border: 1px solid grey;
+	font-size: 18px;
+	width: 350px;
+	height: 60px;
+	padding-left: 20px;
+}
+
+.input_tile_bottom{
+	margin-top: 20px;
+}
+
+.input_tile_bottom p{
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.button_submit{
+	margin-top: 30px;
+	text-align: center;
+}
+
+.button_submit button{
+	width: 400px;
+	height: 70px;
+	font-weight: 700;
+	border-radius: 20px;
+}
+
+/*サポート体制について*/
+.support{
+	margin-top: 70px;
+}
+
+.support_left{
+	padding-left: 30px;
+}
+
+.support_left h1{
+	font-weight: 600;
+	font-size: 45px;
+}
+
+.support_item span{
+	vertical-align: middle;
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.support_item img{
+	vertical-align: middle;
+	height: 30px;
+	width: 50px;
+	padding-right: 20px;
+}
+
+.support_right p{
+	margin-left: 50px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.support_right{
+	margin-bottom: 30px;
+}
+
+/*はじめよう*/
+
+.hazimeyou{
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.hazimeyou h1{
+	font-weight: 700;
+	font-size: 40px;
+	padding-left: 40px;
+}
+
+.hazimeyou_right p{
+	font-size: 25px;
+	padding-right: 70px;
+}
+
+.hazimeyou_right button{
+	width: 130px;
+	height: 50px;
+	border-radius: 10px;
+	font-weight: 600;
+}
+
+footer{
+	background-color: #f5f5f5;
+}
+
+footer{
+	padding-top: 40px;
+	padding-left: 50px;
+}
+
+footer h3{
+	font-size: 13px;
+	font-weight: 600;
+}
+
+
+.appositive-list{
+	margin-right: 30px;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+/* クリアフィックス */
+.appositive-list ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+/* 一覧のリストの設定 */
+.appositive-list ul li {
+  list-style-type: none;
+  display: block;
+  float: left;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+/* 横並びに3等分 */
+.appositive-list ul.al-3 li {
+  width: 31.42%;
+  margin-right: 2.87%;
+}
+.appositive-list ul.al-3 li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.al-3{
+	font-size: 15px;
+}
+
+
+.lang{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+	/*width: 50%;*/
+	/*margin: 0 auto;*/
+}
+
+.lang img{
+	height: 20px;
+	width: 20px;
+}
+
+
+.lang span{
+	padding-right: 30px;
+	vertical-align: middle;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.lang img{
+	vertical-align: middle;
+	height: 20px;
+	width: 40px;
+	padding-right: 20px;
+}
+
+.lang_item{
+	display: flex;
+}
+
+.lang_icon{
+	margin-left: 20px;
+	margin-bottom: 14px;
+}
+
+.last p{
+	text-align: center;
+	line-height: 10px;
+}
+
+/*追加*/
+.posting{
+	margin-top: 80px;
+	margin-left: 40px;
+	margin-bottom: 50px;
+}
+
+.posting h2{
+	font-weight: 700;
+}
+
+.imageshasinn_item img{
+	margin-bottom: 30px;
+}
+
+.siro{
+	margin-top: 80px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+.siro h2{
+	font-weight: 700;
+}
+
+
+.airbnb_flex{
+	display: flex;
+}
+
+.airbnb_flex img{
+	height: 300px;
+	width: 250px;
+	border-radius: 20px;
+	margin-right: 30px;
+}
+
+.airbnb_flex{
+      overflow-x: auto;
+      /*white-space: nowrap;*/
+      -webkit-overflow-scrolling: touch;
+}
+
+.airbnb_flex::-webkit-scrollbar {
+  display:none;
+}
+
+
+@media screen and (max-width: 500px) {
+  /* スマホ用のスタイル */
+  .logo{
+  	display: none;
+  }
+  .header{
+  	margin-top: 0;
+  }
+  .title{
+  	margin: 0;
+  	margin-top: 20px;
+  	width: 100%;
+  	padding-left: 20px;
+  	padding-right: 20px;
+  }
+  .title h1{
+  	font-size: 33px;
+  }
+  .title br{
+  	display: none;
+  }
+  .col-lg-6{
+  	padding: 0;
+  }
+  .title_button{
+  	margin-top: 30px;
+  	margin-bottom: 30px;
+  }
+  .title_button button{
+  	border-radius: 15px;
+  	font-weight: 600;
+  }
+  .airbnbimg_item > img{
+  	height: 280px;
+  	width: 220px;
+  }
+  .airbnbimg_item div{
+  	/*word-wrap: break-word;*/
+  }
+  .sample01{
+  	display:inline-block;
+  	width: 250px;
+  	padding: 5px;
+  	/*background: #f4f4f4;*/
+  	/*border: 1px solid #ccc;*/
+  	word-break:break-all;
+  	min-width:80px;
+  }
+  .posting h2{
+  	font-size: 28px;
+  }
+
+  .imageshasinn_item img{
+  	height: 120px;
+  	width: 170px;
+  	border-radius: 10px;
+  }
+  .imageshasinn_item br{
+  	display: none;
+  }
+  .imageshasinn_item h3{
+  	font-weight: 700;
+  	font-size: 18px;
+  }
+  .imageshasinn_item p{
+  	font-size: 15px;
+  	line-height: 17px;
+  }
+
+  .siro{
+  	margin-top: 30px;
+  }
+  .siro h2{
+  	font-size: 25px;
+  }
+
+  .shuuyuu{
+  	height: 800px;
+  }
+
+  .last p{
+  	line-height: 20px;
+  }
+}
